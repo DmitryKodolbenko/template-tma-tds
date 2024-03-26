@@ -1,0 +1,93 @@
+{
+  "name": "template-example",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@delab-team/de-ui": "0.0.28",
+    "@delab-team/ton-api-sdk": "^0.0.3",
+    "@delab-team/ton-network-react": "^0.0.10",
+    "@tonconnect/sdk": "^3.0.0-beta.1",
+    "@tonconnect/ui": "^2.0.0-beta.2",
+    "@tonconnect/ui-react": "^2.0.0-beta.2",
+    "@twa-dev/sdk": "^7.0.0",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "buffer": "^6.0.3",
+    "console-browserify": "^1.2.0",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "module": "^1.2.5",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.68.0",
+    "stream-browserify": "^3.0.0",
+    "ton": "^13.5.0",
+    "ton-core": "^0.52.0",
+    "ton-crypto": "^3.2.0",
+    "ton3": "^0.0.16",
+    "vm-browserify": "^1.1.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@ton/blueprint": "^0.12.1",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^3.3.0",
+    "eslint-plugin-import": "^2.26.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "readable-stream": "^4.1.0",
+    "source-map-loader": "^1.0.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.9.5",
+    "url": "^0.11.1",
+    "url-loader": "^4.1.1",
+    "util": "^0.12.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
